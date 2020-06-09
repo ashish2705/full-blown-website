@@ -62,16 +62,37 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-#dpbutton a{
+.dropdown a{
   padding: 12px 16px;
   color: #78122F;
 }
 
-#dpbutton a:hover, #dpbutton a:focus{
+.dropdown a:hover, .dropdown a:focus{
   background-color: inherit;
   color: #61122f;
   font-weight: 600; 
 }
+.d-md-block a{
+  text-align: center;
+}
 
+#dpbuttonh a:hover, #dpbuttonh a:focus{
+  background-color: #dbb014;
+  font-weight: normal;
+  transition: 0.1s;
+  border-radius: 6px; 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.d-md-none .dropdown-menu {
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-align: right;
+}
+
+button.navbar-toggler{
+  clear:right;
+}
 /* END HEADER */
 
